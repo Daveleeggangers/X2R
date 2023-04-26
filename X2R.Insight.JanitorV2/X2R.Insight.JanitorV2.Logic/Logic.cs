@@ -1,14 +1,15 @@
 ﻿using MySql.Data.MySqlClient;
+using System.Data.SqlClient;
 
 namespace X2R.Insight.JanitorV2.Logic
 {
     public class Logic
     {
-        public string databaseConnection(string connectionString)
+        public static string DatabaseConnection(string connectionString)
         {
-            string result = string.Empty;
             MySqlConnection connection = new(connectionString);
 
+            string result;
             try
             {
                 connection.Open();
@@ -23,27 +24,24 @@ namespace X2R.Insight.JanitorV2.Logic
         }
 
 
-        public string ExecuteQuery(string connectionString, string query)
+        public static string GetQuery(string connectionString, string query)
         {
             MySqlConnection connection = new(connectionString);
             string result = string.Empty;
 
             try
             {
-                
                 string oString = query;
-                MySqlCommand oCmd = new MySqlCommand(oString, connection);
+                MySqlCommand oCmd = new(oString, connection);
                 connection.Open();
-                using (MySqlDataReader oReader = oCmd.ExecuteReader())
+                using MySqlDataReader oReader = oCmd.ExecuteReader();
+                int count = 0;
+                while (oReader.Read())
                 {
-                    int count = 0;
-                    while (oReader.Read())
-                    {
-                        Console.WriteLine("Query: " + oReader["query"] + " ConnectionString: " + oReader["connectionstring"]);
-                        count++;
-                    }
-                    result = $"Query is succesfully executed. {count} rows effected";
+                    Console.WriteLine("Query: " + oReader["query"] + " ConnectionString: " + oReader["connectionstring"]);
+                    count++;
                 }
+                result = $"Query is succesfully executed. {count} row(s) effected";
             }
             catch (Exception eX)
             {
@@ -53,45 +51,30 @@ namespace X2R.Insight.JanitorV2.Logic
             return result;
         }
 
+        public static string ExecuteQuery(string query, string connectionString)
+        {
+            SqlConnection connection = new(connectionString);
 
+            SqlCommand command = new(query, connection);
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            try
+            {
+                int changes = 0;
+                while (reader.Read())
+                {
+                    changes++;
+                }
+                connection.Close();
 
-
-
-
-
-
-
-
-
-
-
-
-
-        /* public string ExecuteQuery(string query, string connectionString)
-         {
-             SqlConnection connection = new SqlConnection(connectionString);
-             string result = string.Empty;
-
-             SqlCommand command = new SqlCommand(query, connection);
-             connection.Open();
-             SqlDataReader reader = command.ExecuteReader();
-             try
-             {
-                 int changes = 0;
-                 while (reader.Read())
-                 {
-                     changes++;
-                 }
-                 connection.Close();
-
-                 result = $"Query is succesfully executed with {changes} changes/ rows effected";
-                 return result;
-             }
-             finally
-             {
-                 reader.Close();
-             }
-         }*/
+                string result = $"Query is succesfully executed with {changes} change(s)/ row(s) effected";
+                return result;
+            }
+            finally
+            {
+                reader.Close();
+            }
+        }
 
 
     }

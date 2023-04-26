@@ -2044,11 +2044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dave - X2R\\source\\repos\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\X2R.Insight.JanitorV2.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\Dave - X2R\\Desktop\\X2R - JanitorV2\\X2R\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\X2R.Insight.JanitorV2.Logic.csproj",
       "projectName": "X2R.Insight.JanitorV2.Logic",
-      "projectPath": "C:\\Users\\Dave - X2R\\source\\repos\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\X2R.Insight.JanitorV2.Logic.csproj",
+      "projectPath": "C:\\Users\\Dave - X2R\\Desktop\\X2R - JanitorV2\\X2R\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\X2R.Insight.JanitorV2.Logic.csproj",
       "packagesPath": "C:\\Users\\Dave - X2R\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dave - X2R\\source\\repos\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\obj\\",
+      "outputPath": "C:\\Users\\Dave - X2R\\Desktop\\X2R - JanitorV2\\X2R\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

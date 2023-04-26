@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h8LLQWx+H4pAbZWMmLuIi35I58u+KuC2PL4SG1VawIIn0849mu4ynmplSXNF4f6QlSYSVLXPMQ3OU7YvGMn/Dg==",
+  "dgSpecHash": "jJZy1VvQPfTPSoX15mDDuogNQLc6wNLOZfl2gnDOiHdJModfhDDOB/aY1N8eXJWnum0NkD9k+fFdSlK2yRdtvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dave - X2R\\source\\repos\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\X2R.Insight.JanitorV2.Logic.csproj",
+  "projectFilePath": "C:\\Users\\Dave - X2R\\Desktop\\X2R - JanitorV2\\X2R\\X2R.Insight.JanitorV2\\X2R.Insight.JanitorV2.Logic\\X2R.Insight.JanitorV2.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dave - X2R\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Dave - X2R\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

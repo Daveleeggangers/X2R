@@ -10,3 +10,15 @@ C:\Users\Dave - X2R\source\repos\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Log
 C:\Users\Dave - X2R\source\repos\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\refint\X2R.Insight.JanitorV2.Logic.dll
 C:\Users\Dave - X2R\source\repos\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.pdb
 C:\Users\Dave - X2R\source\repos\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\ref\X2R.Insight.JanitorV2.Logic.dll
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\bin\Debug\net6.0\X2R.Insight.JanitorV2.Logic.deps.json
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\bin\Debug\net6.0\X2R.Insight.JanitorV2.Logic.dll
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\bin\Debug\net6.0\X2R.Insight.JanitorV2.Logic.pdb
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.csproj.AssemblyReference.cache
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.AssemblyInfoInputs.cache
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.AssemblyInfo.cs
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.dll
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\refint\X2R.Insight.JanitorV2.Logic.dll
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\X2R.Insight.JanitorV2.Logic.pdb
+C:\Users\Dave - X2R\Desktop\X2R - JanitorV2\X2R\X2R.Insight.JanitorV2\X2R.Insight.JanitorV2.Logic\obj\Debug\net6.0\ref\X2R.Insight.JanitorV2.Logic.dll
